@@ -23,7 +23,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  const submitForm = $('input').on('submit', function(){
+  const submitForm = $('form').on('submit', function(){
     alert(`Your form is going to be submitted now.`)
   })
   return submitForm
@@ -36,5 +36,6 @@ $(document).ready(function(){
 getIt();
 frameIt();
 pressIt();
+submitIt();
 
 });
