@@ -22,6 +22,12 @@ function pressIt(){
   return keyPressed
 }
 
+function submitIt(){
+  const submitForm = $('form').on('submit', function(){
+    alert(``)
+  })
+}
+
 
 $(document).ready(function(){
 
