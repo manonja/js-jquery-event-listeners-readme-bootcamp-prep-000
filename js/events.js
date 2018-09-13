@@ -23,7 +23,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  const submitForm = $('form').on('submit', function(){
+  const submitForm = $('input').on('submit', function(){
     alert(`Your form is going to be submitted now.`)
   })
   return submitForm
