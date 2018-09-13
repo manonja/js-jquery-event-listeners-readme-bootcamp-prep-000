@@ -15,7 +15,7 @@ function frameIt(){
 
 function pressIt(){
   const keyPressed = $('input').on('load', function(key){
-    if(key.which === )
+    if(key.which ===  )
   })
   return keyPressed
 }
