@@ -15,7 +15,9 @@ function frameIt(){
 
 function pressIt(){
   const keyPressed = $('input').on('load', function(key){
-    if(key.which ===  )
+    if(key.which === 71 ){
+      alert()
+    }
   })
   return keyPressed
 }
