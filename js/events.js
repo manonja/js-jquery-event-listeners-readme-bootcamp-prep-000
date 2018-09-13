@@ -16,7 +16,7 @@ function frameIt(){
 function pressIt(){
   const keyPressed = $('input').on('load', function(key){
     if(key.which === 71 ){
-      alert()
+      alert(`g was pressed`)
     }
   })
   return keyPressed
