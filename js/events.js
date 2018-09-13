@@ -24,8 +24,9 @@ function pressIt(){
 
 function submitIt(){
   const submitForm = $('form').on('submit', function(){
-    alert(``)
+    alert(`Your form is going to be submitted now.`)
   })
+  return submitForm
 }
 
 
